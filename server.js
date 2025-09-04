@@ -4,6 +4,27 @@
  
 const http = require('http');
 const url = require('url');
+
+// === NOWE IMPORTY DLA BAZY DANYCH ===
+const { initializeDB } = require('./database');
+
+// Zmienna globalna dla bazy danych
+let db = null;
+
+// Funkcja pomocnicza do parsowania body
+function parseBody(request) {
+    return new Promise((resolve, reject) => {
+        let body = '';
+        request.on('data', chunk => body += chunk.toString());
+        request.on('end', () => {
+            try {
+                resolve(JSON.parse(body));
+            } catch (error) {
+                reject(error);
+            }
+        });
+    });
+}
  
 // Konfiguracja serwera
 const PORT = 3000;

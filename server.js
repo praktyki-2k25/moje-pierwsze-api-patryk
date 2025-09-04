@@ -31,7 +31,7 @@ const PORT = 3000;
 const HOST = 'localhost';
  
 // Funkcja obsługująca requesty
-const requestHandler = (request, response) => {
+const requestHandler = async (request, response) => {
     // Parsowanie URL i pobranie ścieżki
     const parsedUrl = url.parse(request.url, true);
     const path = parsedUrl.pathname;

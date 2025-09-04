@@ -6,9 +6,14 @@
 "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
+<<<<<<< HEAD
     "test": "echo \"Testowanie API za pomocą Postmana\"",
     "db:reset": "rm -f database.sqlite && node server.js"
 }
+=======
+    "test": "echo \"Testowanie API za pomoca Postmana\""
+  },
+>>>>>>> c934b60 (Przygotowanie projektu do pracy z baza danych)
   "keywords": [
     "api",
     "rest",
@@ -19,6 +24,10 @@
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
   }
 }
 

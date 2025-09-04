@@ -131,7 +131,7 @@ const requestHandler = (request, response) => {
         // prosty kalkulator, generator haseł, itp.
         response.statusCode = 200;
         response.end(JSON.stringify({
-            message: "To jest miejsce na Twój własny, kreatywny endpoint!",
+            message: "W 2009 roku Google napisało algorytm, który nauczył się… grać w klasycznego Pac-Mana lepiej niż większość ludzi.!",
             hint: "Zmodyfikuj ten kod według własnego pomysłu"
         }));
     }

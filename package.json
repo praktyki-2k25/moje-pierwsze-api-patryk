@@ -13,7 +13,12 @@
     "rest",
     "learning",
     "workshop"
-  ],
+  ], "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Testowanie API za pomocą Postmana\"",
+    "db:reset": "rm -f database.sqlite && node server.js"
+}
   "author": "Patryk",
   "license": "MIT",
   "engines": {

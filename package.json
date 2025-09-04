@@ -3,17 +3,12 @@
   "version": "1.0.0",
   "description": "Moj pierwszy serwer API - projekt warsztatowy",
   "main": "server.js",
-"scripts": {
+  "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-<<<<<<< HEAD
     "test": "echo \"Testowanie API za pomocą Postmana\"",
     "db:reset": "rm -f database.sqlite && node server.js"
-}
-=======
-    "test": "echo \"Testowanie API za pomoca Postmana\""
   },
->>>>>>> c934b60 (Przygotowanie projektu do pracy z baza danych)
   "keywords": [
     "api",
     "rest",
@@ -30,4 +25,3 @@
     "sqlite3": "^5.1.7"
   }
 }
-

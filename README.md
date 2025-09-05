@@ -4,7 +4,7 @@ To jest mój pierwszy serwer API stworzony podczas warsztatów z REST API i Post
 👤 Autor
 
 Imię i nazwisko: Patryk Szczotka
-Data utworzenia: 06.09.2008
+Data utworzenia: 04.09.2025
 Firma/Szkoła: QualityCare
 
 🛠️ Technologie
